@@ -1,5 +1,5 @@
 # Vlad el Rescatador
-Un rescatador de comentarios para subcultura.es (RIP)
+Un rescatador de comentarios para subcultura.es, que el jamboree tenga en su gloria.
 
 Prerrequisitos:
 1) Necesitas tener Python 2.7 instalado en tu ordenador.
