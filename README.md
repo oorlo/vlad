@@ -1,4 +1,4 @@
-# vlad
+# Vlad el Rescatador
 Un rescatador de comentarios para subcultura.es (RIP)
 
 Prerrequisitos:
