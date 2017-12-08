@@ -11,4 +11,6 @@ Cómo usar:
 3) Escribe "python vlad.py aaacomics" (sin las comillas). Sustituye aaacomics por la parte de la URL del webcomic que quieras salvar que vaya antes de ".subcultura.es"
 4) El resultado se guarda en un archivo que se llama aaacomics\_-\_Vlad\_El\_Rescatador.txt. Pero con el nombre de tu cómic.
 
+El script produce un archivo de texto plano feo. Ponerlo bonito ya es cosa de cada uno!
+
 Si encuentras un bug, tienes sugerencias, peticiones, o quieres que use el programa por ti para ahorrarte instalar Python, escríbeme en Twitter a @oorlo! :)
