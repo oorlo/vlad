@@ -232,6 +232,10 @@ for stripno in range(firstStrip, lastStrip+1):
                         if "widget" in htmltext:
                             # it's another, lamer widget! We're done
                             areAuthCommsDone = True
+                        elif "navegador_select" in htmltext:
+                            # I guess this is a different type of widget?
+                            # Thanks @fjfuente for catching this!
+                            areAuthCommsDone = True
                         else:
                             # a new author comment, start over
                             text += htmltext
