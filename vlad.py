@@ -78,7 +78,7 @@ def extractAuthorComments(text):
         
     for author in authors:
         authorname = re.search('^.*?Avatar.*?Perfil.*?class=\"usuario\">(.*?)</a>', author, re.DOTALL).group(1)
-        authorcomment = re.search('&mdash; (.*)</div>', author, re.DOTALL).group(1)
+        authorcomment = re.search('&mdash; ?(.*)</div>', author, re.DOTALL).group(1)
         #I'm so sorry about this:
         authorcomment = authorcomment.encode("utf-8") # now it's a string, for use with standardizeUrl
         authorcomment = sanitizeUrls(authorcomment)
